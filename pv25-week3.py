@@ -10,7 +10,7 @@ class MouseTracker(QMainWindow):
         self.setWindowTitle("Task Week 3 - F1D022057-Lalu Olfata Vedora Zurji")
         self.setGeometry(100, 100, 450, 300)
         
-        self.label = QLabel("x: 0, y: 0", self)
+        self.label = QLabel(self)
         self.label.setStyleSheet("font-size: 14px; padding: 5px;")
         self.label.move(50, 50)
         
